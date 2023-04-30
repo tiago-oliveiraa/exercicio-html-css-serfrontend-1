@@ -1,0 +1,14 @@
+body{
+    margin: 0 auto;
+    min-height: 100vh;
+    
+}
+
+.cabecalho{
+    background-image: url(./src/image/homem-imagem.jpg);
+    height: 700px;
+    background-position: right center;
+    background-size: cover; 
+
+}
+
