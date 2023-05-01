@@ -1,14 +1,102 @@
 body{
     margin: 0 auto;
-    min-height: 100vh;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
 .cabecalho{
     background-image: url(./src/image/homem-imagem.jpg);
-    height: 700px;
+    height: 500px;
     background-position: right center;
-    background-size: cover; 
+    background-size: cover;
 
+}
+
+.cabecalho-content{
+    margin-top: 170px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px aquamarine;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-content{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape{
+    background-color: #333;
+    text-align: center;
+    text-shadow: 3px 3px 3px aqua;
+    padding: 10px;
+    color: white;
+}
+
+
+.titulo-art{
+
+    background-color: #cc3;
+    border-bottom: solid 2px black;
+
+}
+
+
+.card p {
+    background-color: #333;
+    color: white;
+    width: 87%;
+    padding: 10px;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 30%;
+
+
+    
+/* Aqui está o código CSS que você pode adicionar ao seu arquivo style.css para fazer as imagens do cartão ficarem lado a lado com o texto abaixo delas:
+
+    Primeiro, adicione a propriedade display: flex à seção .section-content para que seus filhos sejam organizados em um contêiner flexível. Em seguida, adicione a propriedade display: flex à classe .card para tornar os elementos de cartão flexíveis. Para colocar o texto abaixo das imagens, você pode usar a propriedade flex-direction: column para dispor os elementos de texto abaixo das imagens. */
+
+
+    /* Observe que definimos a largura do elemento de cartão para 30% para garantir que os três cartões se encaixem na seção .section-content e usamos flex-wrap: wrap e justify-content: space-between para garantir que os cartões fiquem lado a lado e preencham o espaço disponível. Além disso, usamos align-items: center e text-align: center para centralizar vertical e horizontalmente os elementos de cartão. */
+
+    /* Para fazer as imagens dos cartões ficarem lado a lado com o texto abaixo, você pode usar o CSS flexbox para criar um contêiner flexível em torno dos cartões. */
+
+
+
+
+
+
+
+  }
+
+  
+
+  
+
+
+
+
+article{
+    padding: 10px;
 }
 
