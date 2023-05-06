@@ -25,16 +25,20 @@ body{
     text-shadow: 3px 3px 6px aquamarine;
 }
 
+.cabecalho-content p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid white;
+    padding: 5px;
+    font-size: 15px;
+
+}
 
 .cabecalho nav li{
     display: inline-block;
     border: solid 1px white;
     list-style: none;
     margin-left: 10px;
-
-    
-
-
 }
 
 .cabecalho nav a{
@@ -50,12 +54,8 @@ body{
     
 }
 .cabecalho nav a:hover{
-
     background-color: rgba(0, 0, 0, 0.7);
 }
-
-
-
 
 .navegacao{
     text-align: right;
@@ -70,11 +70,27 @@ main{
 }
 
 .section-content{
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 10px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    box-sizing: border-box;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+/* .card-1, .card-2{
+    margin-right: 1%;
+} */
+
+
+.card img{
+    width: 100%;
 }
 
 .rodape{
@@ -90,20 +106,21 @@ main{
 
     background-color: #cc3;
     border-bottom: solid 2px black;
+    width: 100%;
 
 }
 
 
-.card p {
+/* .card p {
     background-color: #333;
     color: white;
     width: 87%;
     padding: 10px;
 
 
-}
+} */
 
-.card {
+/* .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,11 +128,16 @@ main{
     margin-bottom: 20px;
     width: 30%;
 
-  }
+  } */
+
+
+
 
 
 article{
     padding: 10px;
+    clear: both;
+
 }
 
 
